@@ -1,0 +1,49 @@
+.header {
+    background-color: green;
+    background-size: cover;
+    padding: 10px;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 10px;
+    padding: 5px;
+    width: 20%;
+}
+
+.top-nav .nav-link {
+    margin-left: 10px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.nav-item {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: darkred;
+}

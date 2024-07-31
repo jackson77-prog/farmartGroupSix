@@ -1,0 +1,27 @@
+.stay-informed {
+    text-align: center;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-text {
+    position: relative;
+    width: 45%;
+}
+
+.image-text img {
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}

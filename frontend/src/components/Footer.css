@@ -1,0 +1,24 @@
+.footer {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   }
+
+.contact-info, .social-media, .newsletter {
+    flex: 1;
+}
+
+.social-link {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-right: 10px;
+}

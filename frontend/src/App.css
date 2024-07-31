@@ -1,0 +1,46 @@
+/* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%; /* Ensure full height */
+}
+
+/* Global styles for the entire application */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure app takes full height of viewport */
+}
+
+/* Main content area (excluding header and footer) */
+.main-content {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: pink;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* Ensures footer does not push content */
+}
+
+.contact-info, .social-media, .newsletter {
+  flex: 1;
+}
+
+.social-link {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.newsletter input {
+  padding: 5px;
+  margin-right: 10px;
+}
