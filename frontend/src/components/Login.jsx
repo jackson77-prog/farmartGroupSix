@@ -4,14 +4,14 @@ import { loginUser } from '../services/userService';
 import './Login.css';
 
 const LoginForm = () => {
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [userType, setUserType] = useState('farmer');
 
   const handleLogin = async (event) => {
     event.preventDefault();
     try {
-      const response = await loginUser(username, password);
+      const response = await loginUser(email, password);
       console.log(response); // Handle the response as needed
     } catch (error) {
       console.error('Login failed', error);
@@ -30,12 +30,12 @@ const LoginForm = () => {
           </select>
         </label>
         <label>
-          Username:
-          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+          Email:
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
         </label>
         <label>
           Password:
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         </label>
         <button type="submit">Login</button>
       </form>

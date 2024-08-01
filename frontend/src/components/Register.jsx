@@ -4,10 +4,13 @@ import { registerUser } from '../services/userService';
 import './Register.css';
 
 const RegisterForm = () => {
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [userType, setUserType] = useState('farmer');
+  const [phone, setPhone] = useState('');
+  const [county, setCounty] = useState('');
+  const [town, setTown] = useState('');
   const [message, setMessage] = useState('');
 
   const handleRegister = async (event) => {
@@ -17,7 +20,7 @@ const RegisterForm = () => {
       return;
     }
     try {
-      const response = await registerUser(username, password, userType);
+      const response = await registerUser(email, password, userType, phone, county, town);
       setMessage(response.message); // Assuming the backend sends a 'message' in the response
     } catch (error) {
       setMessage('Registration failed');
@@ -36,16 +39,28 @@ const RegisterForm = () => {
           </select>
         </label>
         <label>
-          Username:
-          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+          Email:
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+        </label>
+        <label>
+          Phone:
+          <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} />
+        </label>
+        <label>
+          County:
+          <input type="text" value={county} onChange={(e) => setCounty(e.target.value)} />
+        </label>
+        <label>
+          Town:
+          <input type="text" value={town} onChange={(e) => setTown(e.target.value)} />
         </label>
         <label>
           Password:
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         </label>
         <label>
           Confirm Password:
-          <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
+          <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required />
         </label>
         <button type="submit">Register</button>
       </form>
