@@ -1,0 +1,41 @@
+.animal-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.animal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.animal-details {
+    padding: 16px;
+}
+
+.animal-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.animal-details p {
+    margin: 8px 0;
+    font-size: 0.9em;
+}
+
+.animal-details button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.animal-details button:hover {
+    background-color: #218838;
+}

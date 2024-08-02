@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-   }
+}
 
 .contact-info, .social-media, .newsletter {
     flex: 1;

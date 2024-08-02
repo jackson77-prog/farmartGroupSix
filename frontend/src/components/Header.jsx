@@ -1,13 +1,13 @@
 import React from 'react';
-import './Header.css';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
     return (
         <header className="header">
             <div className="top-header">
                 <div className="logo">
-                <img src="src/assets/logo.png" alt="Farmart Logo" />
+                    <img src="src/assets/logo.png" alt="Farmart Logo" />
                 </div>
                 <input type="text" placeholder="Search..." className="search-bar" />
                 <nav className="top-nav">
@@ -15,6 +15,7 @@ const Header = () => {
                     <Link to="/register" className="nav-link">Register</Link>
                     <Link to="/login" className="nav-link">Login</Link>
                     <Link to="/cart" className="nav-link">Cart</Link>
+                    <Link to="/add-animal" className="nav-link">Add Animal</Link>
                 </nav>
             </div>
             <div className="navbar">
