@@ -1,5 +1,7 @@
 .animal-list {
     padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 .animal-cards {
@@ -22,15 +24,14 @@
     cursor: pointer;
     border-radius: 4px;
     margin: 0 8px;
+    transition: background-color 0.3s;
 }
 
-.pagination button:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
+.pagination button:hover {
+    background-color: #0056b3;
 }
 
 .pagination span {
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
+    align-self: center;
+    font-size: 1.1em;
 }

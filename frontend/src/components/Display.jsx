@@ -4,31 +4,52 @@ import './Display.css';
 const Display = () => {
     return (
         <section className="display">
-            <h2>We Have What You're Looking For</h2>
+            <h2>Farmart: Empowering Farmers, Enhancing Trust</h2>
             <div className="columns">
                 <div className="column">
-                    <h3>For Food</h3>
+                    <h3>Direct from the Source</h3>
                     <div className="icon-text">
                         <i className="icon">🍎</i>
-                        <p>Eliminate middlemen and buy directly from the source, ensuring authenticity and transparency.</p>
+                        <p>Purchase directly from farmers, ensuring transparency and authenticity in every transaction.</p>
                     </div>
-                    {/* Add other icon-text pairs here */}
+                    <div className="icon-text">
+                        <i className="icon">🌾</i>
+                        <p>Support sustainable farming practices by connecting with local producers.</p>
+                    </div>
+                    <div className="icon-text">
+                        <i className="icon">🥩</i>
+                        <p>Enjoy fresh, high-quality produce and livestock without the middleman markup.</p>
+                    </div>
                 </div>
                 <div className="column">
-                    <h3>For Companionship</h3>
+                    <h3>Companionship and Care</h3>
                     <div className="icon-text">
                         <i className="icon">🐕</i>
-                        <p>Find the perfect pet for your home.</p>
+                        <p>Find loyal companions and pets that bring joy to your home.</p>
                     </div>
-                    {/* Add other icon-text pairs here */}
+                    <div className="icon-text">
+                        <i className="icon">🐈</i>
+                        <p>Adopt animals that are cared for by responsible and dedicated farmers.</p>
+                    </div>
+                    <div className="icon-text">
+                        <i className="icon">🐎</i>
+                        <p>Choose from a variety of animals bred for companionship and care.</p>
+                    </div>
                 </div>
                 <div className="column">
-                    <h3>For Work</h3>
+                    <h3>Enhance Your Farm</h3>
                     <div className="icon-text">
                         <i className="icon">🚜</i>
-                        <p>Get the best livestock for your farm work needs.</p>
+                        <p>Source robust livestock that are essential for efficient farm operations.</p>
                     </div>
-                    {/* Add other icon-text pairs here */}
+                    <div className="icon-text">
+                        <i className="icon">🐄</i>
+                        <p>Invest in quality animals to improve productivity and yield.</p>
+                    </div>
+                    <div className="icon-text">
+                        <i className="icon">🐑</i>
+                        <p>Get expert recommendations from farmers for your specific farm needs.</p>
+                    </div>
                 </div>
             </div>
         </section>

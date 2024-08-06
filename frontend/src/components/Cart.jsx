@@ -18,7 +18,7 @@ const Cart = () => {
     };
 
     return (
-        <div className="cart">
+        <div className="cart-container" >
             <h2>Your Cart</h2>
             <div className="cart-items">
                 {cartItems.map(item => (

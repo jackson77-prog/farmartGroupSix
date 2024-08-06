@@ -4,7 +4,7 @@ import './AnimalCard.css';
 const AnimalCard = ({ animal }) => {
     return (
         <div className="animal-card">
-            <img src={animal.image_url} alt={animal.breed} />
+            <img src={animal.image_url} alt={animal.breed} className="animal-image" />
             <div className="animal-details">
                 <h3>{animal.breed}</h3>
                 <p>Price: ${animal.price}</p>

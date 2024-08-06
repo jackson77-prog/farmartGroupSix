@@ -2,10 +2,14 @@
     padding: 20px;
     max-width: 500px;
     margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .add-animal-form h2 {
     text-align: center;
+    color: #333;
 }
 
 .add-animal-form form {
@@ -15,6 +19,7 @@
 
 .add-animal-form label {
     margin-bottom: 10px;
+    color: #333;
 }
 
 .add-animal-form input {
@@ -22,18 +27,21 @@
     margin-top: 5px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 .add-animal-form button {
     padding: 10px;
-    background-color: blue;
+    background-color: #28a745;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 4px;
     margin-top: 10px;
+    transition: background-color 0.3s;
 }
 
 .add-animal-form button:hover {
-    background-color: darkblue;
+    background-color: #218838;
 }
