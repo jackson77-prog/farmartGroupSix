@@ -47,7 +47,7 @@ Farmart is an e-commerce platform designed to empower farmers by eliminating mid
 - Python 3.8+
 - Node.js 14+
 - PostgreSQL
-- Docker & Docker Compose
+
 
 ### Installation
 
