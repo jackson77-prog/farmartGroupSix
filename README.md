@@ -1,160 +1,163 @@
-# Farmart
-
-Farmart is an e-commerce platform designed to empower farmers by eliminating middlemen and enabling direct sales of farm animals. This platform allows farmers to list animals for sale and manage orders, while users can browse, search, and purchase animals directly from farmers.
+## Farmart E-commerce Application
+Farmart is an e-commerce application designed to revolutionize the way you buy and sell livestock.
+Our mission is to bridge the gap between farmers and buyers, offering a seamless, transparent platform for purchasing animals such as horses, dogs, and camels.
+By eliminating middlemen, we aim to ensure fair pricing and genuine connections.
 
 ## Table of Contents
-
-- [Features](#features)
-- [Technologies](#technologies)
-- [Architecture](#architecture)
-- [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-- [Wireframes](#wireframes)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-### Farmer
-- **Authentication**: Login/Register.
-- **Animal Management**: Add, update, and edit animals for sale.
-- **Order Management**: Confirm or reject orders.
-
-### User
-- **Authentication**: Login/Register.
-- **Animal Browsing**: View all listed animals.
-- **Search & Filter**: Search for animals by type and breed. Filter animals by breed and age.
-- **Shopping Cart**: Add animals to the cart and checkout.
-- **Payment**: Pay for items in the cart.
-
-## Technologies
-
-- **Backend**: Flask
-- **Database**: PostgreSQL
-- **Frontend**: React.js, Redux Toolkit
-- **Testing**: Jest, Pytest
-- **DevOps**: Docker, Docker Compose
+* Features
+* Tech Stack
+* Project Structure
+* Getting Started
+* Prerequisites
+* Installation
+* Running the Application
+* Usage
+* Contributing
+* License
+* Contact
 
 
-## Setup
+# Features
+- User-friendly interface
+- Seamless integration between farmers and buyers
+- Real-time updates and notifications
+- Secure user authentication
+- Interactive and animated UI components
+- Responsive design for mobile and desktop
 
-### Prerequisites
 
-- Python 3.8+
-- Node.js 14+
+## Tech Stack
+
+#### Front End:
+
+- React.js
+- Redux Toolkit
+- CSS3
+
+#### Back End:
+
+- Flask
+- PostgreSQL
+- Project Structure
+
+<!-- ## Project Structure
+
+![alt text](image.png) -->
+
+
+## Getting Started
+
+# Prerequisites
+Ensure you have the following installed:
+
+- Node.js
+- npm
+- Python
 - PostgreSQL
 
 
-### Installation
+# Installation
 
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/Clairewambani/Farmart-Phase5-group6-project.git
-    cd Farmart-Phase5-group6-project
-    ```
+#### Clone the Repository
 
-2. **Backend Setup**
 
-    a. Navigate to the backend directory:
-    ```bash
-    cd backend
-    ```
+` git clone https://github.com/reaganmunene/Farmart-Phase5-group6-project `
 
-    b. Create and activate a virtual environment:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+Navigate into the project repository
 
-    c. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+` cd farmart `
 
-    d. Initialize the database:
-    ```bash
-    flask --app app db init
-    flask --app app db migrate -m "Initial migration."
-    flask --app app db upgrade
-    ```
 
-3. **Frontend Setup**
+# Setting Up the Back End
 
-    a. Navigate to the frontend directory:
-    ```bash
-    cd ../frontend
-    ```
+#### Navigate to the backend directory:
 
-    b. Install the dependencies:
-    ```bash
-    npm install
-    ```
 
-### Running the Application
+` cd backend `
 
-1. **Using Docker**
 
-    a. Navigate to the project root and run:
-    ```bash
-    docker-compose up --build
-    ```
+#### Create a virtual environment and activate it:
 
-2. **Without Docker**
 
-    a. Start the backend server:
-    ```bash
-    cd backend
-    flask run
-    ```
+` python -m venv venv `
 
-    b. Start the frontend development server:
-    ```bash
-    cd ../frontend
-    npm run dev
-    ```
+Acticate the virtual environment
 
-3. **Access the Application**
+` source venv/bin/activate `
 
-    - Frontend: http://localhost:3000
-    - Backend API: http://localhost:5000/api
+On Windows use
 
-## API Endpoints
+`venv\Scripts\activate`
 
-- `POST /api/auth/login`: User login
-- `POST /api/auth/register`: User registration
-- `GET /api/animals`: Get all animals
-- `POST /api/animals`: Add a new animal (Farmer)
-- `PUT /api/animals/:id`: Update an animal (Farmer)
-- `DELETE /api/animals/:id`: Delete an animal (Farmer)
-- `POST /api/orders`: Create a new order
-- `PUT /api/orders/:id/confirm`: Confirm an order (Farmer)
-- `PUT /api/orders/:id/reject`: Reject an order (Farmer)
 
-## Wireframes
+#### Install the required dependencies:
 
-[Wireframes can be found here](#)
 
-## Testing
+` pip install -r requirements.txt `
 
-- **Backend**: Run Pytest
-    ```bash
-    cd backend
-    pytest
-    ```
+#### Set up the PostgreSQL database:
 
-- **Frontend**: Run Jest
-    ```bash
-    cd frontend
-    npm test
-    ```
+#### Create a database named farmart_db.
+#### Update the DATABASE_URI in the config.py file with your PostgreSQL credentials.
+#### Run the Flask application:
 
-## Contributing
 
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+` flask run `
+
+
+### Setting Up the Front End
+
+#### Navigate to the frontend directory:
+
+
+` cd frontend `
+
+#### Install the required dependencies:
+
+` npm install `
+
+
+#### Start the React application:
+
+
+` npm start `
+
+
+#### Running the Application
+
+
+With both the back end and front end set up, you can now run the application. The React front end will be running on http://localhost:3000, and the Flask back end will be running on http://localhost:5000.
+
+## Usage
+Navigate to http://localhost:3000 to access the application.
+- Register an account or log in if you already have one.
+- Browse through the different categories of livestock available.
+- Use the search functionality to find specific animals.
+- Add items to your cart and proceed to checkout.
+
+
+### Contributing
+We welcome contributions! Please follow these steps:
+
+#### - Fork the repository.
+
+#### - Create a new branch:
+
+#### - Make your changes and commit them:
+
+
+` git commit -m "Description of your feature" `
+
+
+#### - Push to the branch:
+
+#### - git push origin feature-name
+
+
+#### - Create a pull request and describe your changes.
+
+## License
+This project is licensed under the MIT License.
 
 ## License
 
