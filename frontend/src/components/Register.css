@@ -1,29 +1,51 @@
+/* Register.css */
+
+/* General Container */
 .register {
     padding: 20px;
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 500px; /* Limit the width for better readability */
+    margin: auto; /* Center the form */
 }
 
+/* Form Styles */
 form {
     display: flex;
     flex-direction: column;
 }
 
+/* Label Styles */
 label {
-    margin-bottom: 10px;
+    margin-bottom: 8px; /* Slightly reduced margin for consistency */
+    font-size: 0.875rem; /* Slightly smaller font size */
+    color: #333; /* Darker text color for better readability */
 }
 
+/* Input and Select Styles */
 input, select {
-    padding: 5px;
-    margin-top: 5px;
+    padding: 10px; /* Increased padding for better touch targets */
+    margin-bottom: 12px; /* Space between form elements */
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 0.875rem; /* Consistent font size */
 }
 
+/* Button Styles */
 button {
-    padding: 10px;
-    background-color: blue;
+    padding: 12px;
+    background-color: #007bff; /* Bright blue color */
     color: white;
     border: none;
+    border-radius: 4px; /* Rounded corners for buttons */
     cursor: pointer;
+    font-size: 0.875rem; /* Consistent font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+/* Button Hover Effect */
 button:hover {
-    background-color: darkblue;
+    background-color: #0056b3; /* Darker blue for hover state */
 }

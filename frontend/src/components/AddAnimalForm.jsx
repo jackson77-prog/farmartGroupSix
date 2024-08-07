@@ -25,7 +25,6 @@ const AddAnimalForm = () => {
         e.preventDefault();
         const response = await addAnimal(formData);
         console.log(response);
-        // Clear the form
         setFormData({
             farmer_email: '',
             price: '',

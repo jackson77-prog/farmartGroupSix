@@ -1,44 +1,109 @@
-.cart {
-    padding: 20px;
+/* Cart.css */
+
+/* General Container */
+.cart-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light grey background for a clean look */
+  border: 1px solid #ddd; /* Light border to delineate the container */
+  border-radius: 8px; /* Rounded corners for a modern feel */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 800px; /* Limit the width for better readability */
+  margin: auto; /* Center the container */
 }
 
-.cart-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+/* Header Styling */
+.cart-container h2 {
+  font-size: 2rem; /* Larger font size for the heading */
+  color: #333; /* Darker text color for contrast */
+  margin-bottom: 1rem; /* Space below the heading */
+  text-align: center; /* Center the heading */
+  font-weight: 600; /* Slightly bolder font */
 }
 
+/* Item List Styling */
 .cart-item {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 16px;
-    width: 250px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee; /* Light border between items */
+  background-color: #fff; /* White background for items */
+  border-radius: 5px; /* Rounded corners for items */
+  margin-bottom: 1rem; /* Space between items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for items */
 }
 
 .cart-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 80px; /* Fixed size for item images */
+  height: 80px;
+  border-radius: 5px; /* Rounded corners for images */
+  margin-right: 15px; /* Space between image and text */
 }
 
-.item-details {
-    padding: 16px;
+.cart-item-details {
+  flex: 1; /* Allow details to expand */
 }
 
-.item-details h3 {
-    margin: 0;
-    font-size: 1.2em;
+.cart-item-title {
+  font-size: 1.125rem; /* Slightly larger font size for titles */
+  color: #333; /* Dark text color */
+  margin-bottom: 5px; /* Space below titles */
 }
 
-.item-details p {
-    margin: 8px 0;
-    font-size: 0.9em;
+.cart-item-price {
+  color: #007bff; /* Bright blue for prices */
+  font-size: 1rem; /* Standard font size for prices */
+  font-weight: 600; /* Slightly bolder font */
 }
 
-.cart-total {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 1.5em;
+.cart-item-quantity {
+  font-size: 0.875rem; /* Slightly smaller font size for quantity */
+  color: #666; /* Grey color for quantity */
+  margin-top: 5px; /* Space above quantity */
+}
+
+/* Summary Section Styling */
+.cart-summary {
+  margin-top: 1.5rem; /* Space above the summary section */
+  padding: 15px;
+  background-color: #fff; /* White background for summary */
+  border-radius: 5px; /* Rounded corners for summary */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for summary */
+}
+
+.cart-summary h3 {
+  font-size: 1.5rem; /* Font size for summary heading */
+  color: #333; /* Dark text color */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.cart-summary p {
+  font-size: 1rem; /* Standard font size for summary text */
+  color: #666; /* Grey color for summary text */
+  margin-bottom: 10px; /* Space below each line */
+}
+
+.cart-summary .total-price {
+  font-size: 1.25rem; /* Larger font size for total price */
+  color: #007bff; /* Bright blue for total price */
+  font-weight: 600; /* Slightly bolder font */
+}
+
+/* Checkout Button */
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff; /* Bright blue button */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners for button */
+  font-size: 1rem; /* Standard font size for button text */
+  cursor: pointer;
+  text-align: center; /* Center the button text */
+  margin-top: 20px; /* Space above the button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.checkout-button:hover {
+  background-color: #0056b3; /* Darker blue for hover state */
 }
