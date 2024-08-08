@@ -8,3 +8,5 @@ services:
     envVars:
       - key: DATABASE_URL
         value: postgresql://farmart_txvk_user:DNIDACUgwsfMynMxpiJZ39wktViTIp1Y@dpg-cqg9lsaju9rs73c9t8o0-a.frankfurt-postgres.render.com/farmart_txvk
+      - key: FLASK_ENV
+        value: production
