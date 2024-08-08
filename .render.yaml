@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: farmart-backend
+    env: python
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "gunicorn backend.app:app"
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://farmart_txvk_user:DNIDACUgwsfMynMxpiJZ39wktViTIp1Y@dpg-cqg9lsaju9rs73c9t8o0-a.frankfurt-postgres.render.com/farmart_txvk
