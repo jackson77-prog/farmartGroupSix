@@ -1,6 +1,7 @@
 {
     "version": 2,
     "builds": [
+      { "src": "backend/requirements.txt", "use": "@vercel/python" },
       { "src": "backend/app.py", "use": "@vercel/python" }
     ],
     "routes": [
