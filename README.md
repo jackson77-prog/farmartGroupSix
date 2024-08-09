@@ -1,7 +1,7 @@
 ## Farmart E-commerce Application
 Farmart is an e-commerce application designed to revolutionize the way you buy and sell livestock.
 Our mission is to bridge the gap between farmers and buyers, offering a seamless, transparent platform for purchasing animals such as horses, dogs, and camels.
-By eliminating middlemen, we aim to ensure fair pricing and genuine connections. The app has been deployed at https://frontend-idkw5a8kt-jacksons-projects-3048e91a.vercel.app/.
+By eliminating middlemen, we aim to ensure fair pricing and genuine connections. The app has been deployed at https://frontend-idkw5a8kt-jacksons-projects-3048e91a.vercel.app/ (frontend) and https://farmartgroupsix-8.onrender.com/ (backend)
 
 ## Table of Contents
 * Features

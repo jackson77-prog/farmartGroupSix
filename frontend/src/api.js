@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://farmartgroupsix-8.onrender.com/';
 
 export const fetchAnimals = async (page = 1, limit = 6) => {
     const response = await fetch(`${API_BASE_URL}/animals?page=${page}&limit=${limit}`);
