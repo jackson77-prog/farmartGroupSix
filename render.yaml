@@ -11,4 +11,4 @@ services:
       - key: FLASK_ENV
         value: production
       - key: PYTHONPATH
-        value: /opt/render/project/src/backend
+        value: /home/render/project/src  # Adjust this path if necessary based on Render's directory structure
