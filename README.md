@@ -1,4 +1,4 @@
-# **<u>FARMART</u>**: <u>Empowering Farmers, connecting consumers</u>
+# <u>**FARMART** ; Empowering Farmers, connecting consumers.</u>
 
 - **Farmart is an e-commerce application designed to revolutionize the way you buy and sell livestock.**
 
@@ -8,7 +8,7 @@
 
 - The link to the actual **deployed website** is [<u>HERE</u>](https://frontend-idkw5a8kt-jacksons-projects-3048e91a.vercel.app/)
 - Our **Power Point Presentation slides** is attached as a pdf file in the repository.
-Or check [<u>Here</u>](Final-Project-Group-6-Slideshow-Presentation.pdf)
+Or check [<u>Here</u>](/Final%20Project%20Group%206%20Slideshow%20Presentation.pdf)
 
 
 ## Table Of Contents
