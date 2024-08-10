@@ -7,7 +7,7 @@
 - **By eliminating middlemen, we aim to ensure fair pricing, and genuine connections.**
 
 - The link to the actual **deployed website** is [<u>HERE</u>](https://frontend-idkw5a8kt-jacksons-projects-3048e91a.vercel.app/)
-- Our **Power Point Presentation slides** is attached as a pdf file in the repository. 
+- Our **Power Point Presentation slides** is attached as a pdf file in the repository.
 Or check [<u>Here</u>](Final-Project-Group-6-Slideshow-Presentation.pdf)
 
 
