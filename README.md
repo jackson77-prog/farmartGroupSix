@@ -148,7 +148,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-#### Set up the PostgreSQL database:
+#### Setting up the PostgreSQL database:
 
 - (v). Create a database named farmart_db.
 - (vi). Update the DATABASE_URI in the config.py file with your PostgreSQL credentials.
@@ -156,8 +156,6 @@ pip install -r requirements.txt
 
 
 ` flask run `
-
-
 
 
 - With both the back end and front end set up, you can now run the application. The React front end will be running on http://localhost:3000, and the Flask back end will be running on http://localhost:5000.
@@ -168,27 +166,26 @@ pip install -r requirements.txt
 
 **The app, when run, should look as follows:**
 
-- Landing page
+- **Landing page**
 
-![Image Sample 1](/event-management-app/src/assets/Eventlist.png)
+![Image Sample 1](/frontend/src/assets/landing.png)
 
-- Register page
+- **Register page**
 
-![Image Sample 2](/event-management-app/src/assets/Loginpage.png)
+![Image Sample 2](/frontend/src/assets/register.png)
 
+- **Cart**
 
-- Login page
+![Image sample 3](/frontend/src/assets/cart.png)
 
-![Image Sample 3](/event-management-app/src/assets/Userdashboard.png)
+- **Add New Animal**
 
-- Cart
-
-![Image sample 4](/event-management-app/src/assets/Bookingpage.png)
+![Image sample 4](/frontend/src/assets/addanimal.png)
 
 
 ## Live Link
 
-- Below is a link to the actual deployed website.
+- Below are the links to the deployed site.
 
     (a). [<u>Front-end</u>](https://frontend-idkw5a8kt-jacksons-projects-3048e91a.vercel.app/)
     (b). [<u>Back-end</u>](https://farmartgroupsix-8.onrender.com/)
