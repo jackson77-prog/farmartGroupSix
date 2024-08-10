@@ -91,7 +91,7 @@
 code .
 ```
 
-- Then install all the node dependencies (be sure to have Nodejs installed into the coned repo first, using the command *`sudo apt install nodejs`)*.
+- Then install all the node dependencies (be sure to have Nodejs installed into the coned repo first, using the command *`sudo apt install nodejs`*.
 - Then install NPM using the command below;
   
 ```bash
