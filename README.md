@@ -6,7 +6,8 @@
 - Our platform is built with **user-friendly** features, allowing farmers to easily list their animals and buyers to purchase.
 - **By eliminating middlemen, we aim to ensure fair pricing, and genuine connections.**
 
-- The link to the actual **deployed website** is [<u>HERE</u>](https://frontend-idkw5a8kt-jacksons-projects-3048e91a.vercel.app/)
+- The link to the actual **deployed frontend** is [<u>HERE</u>](https://frontend-idkw5a8kt-jacksons-projects-3048e91a.vercel.app/)
+- - The link to the actual **deployed backend** is [<u>HERE</u>](https://farmartgroupsix-8.onrender.com/)
 - Our **Power Point Presentation slides** is attached as a pdf file in the repository.
 Or check [<u>Here</u>](/Final%20Project%20Group%206%20Slideshow%20Presentation.pdf)
 
