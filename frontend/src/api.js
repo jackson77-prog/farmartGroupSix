@@ -1,5 +1,4 @@
-const API_BASE_URL = 'https://farmartgroupsix-8.onrender.com/';
-
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 export const fetchAnimals = async (page = 1, limit = 6) => {
     const response = await fetch(`${API_BASE_URL}/animals?page=${page}&limit=${limit}`);
     return await response.json();
