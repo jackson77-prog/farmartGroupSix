@@ -15,13 +15,17 @@ def register():
     county = data['county']
     town = data['town']
     
+    # Check if the user already exists
+    if User.query.filter_by(email=email).first():
+        return jsonify({"message": "User already exists!"}), 409
+    
     hashed_password = generate_password_hash(password, method='pbkdf2:sha256:600000')
     new_user = User(email=email, password=hashed_password, user_type=user_type, phone=phone, county=county, town=town)
     
     db.session.add(new_user)
     db.session.commit()
     
-    return jsonify({"message": "User registered successfully!"})
+    return jsonify({"message": "User registered successfully!"}), 201
 
 @bp.route('/login', methods=['POST'])
 def login():
@@ -32,7 +36,7 @@ def login():
     user = User.query.filter_by(email=email).first()
     
     if user and check_password_hash(user.password, password):
-        # Generate JWT or session token here
-        return jsonify({"message": "Login successful!"})
+        # You might want to include a session token or JWT here
+        return jsonify({"message": "Login successful!"}), 200
     
     return jsonify({"message": "Invalid credentials"}), 401

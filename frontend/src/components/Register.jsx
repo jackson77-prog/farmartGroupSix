@@ -14,15 +14,23 @@ const RegisterForm = () => {
 
     const handleRegister = async (event) => {
         event.preventDefault();
+
         if (password !== confirmPassword) {
             setMessage('Passwords do not match!');
             return;
         }
+
         try {
             const response = await registerUser(email, password, userType, phone, county, town);
-            setMessage(response.message); // Assuming the backend sends a 'message' in the response
+
+            // Check if the response contains a success message
+            if (response.message === "User registered successfully!") {
+                setMessage(response.message); // Display the success message
+            } else {
+                setMessage('Registration failed: ' + response.message); // Display the actual backend error message if registration fails
+            }
         } catch (error) {
-            setMessage('Registration failed');
+            setMessage('Registration failed due to a network error or server issue'); // Handle errors like network failure
         }
     };
 
