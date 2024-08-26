@@ -6,8 +6,8 @@
 - Our platform is built with **user-friendly** features, allowing farmers to easily list their animals and buyers to purchase.
 - **By eliminating middlemen, we aim to ensure fair pricing, and genuine connections.**
 
-- The link to the actual **deployed frontend** is [<u>HERE</u>](https://frontend-2lq3ccje0-jacksons-projects-3048e91a.vercel.app/)
-- - The link to the actual **deployed backend** is [<u>HERE</u>](https://farmartgroupsix-8.onrender.com/)
+- The link to the actual **deployed website** is [<u>HERE</u>](https://frontend-2lq3ccje0-jacksons-projects-3048e91a.vercel.app/)
+
 - Our **Power Point Presentation slides** is attached as a pdf file in the repository.
 Or check [<u>Here</u>](/Final%20Project%20Group%206%20Slideshow%20Presentation.pdf)
 
@@ -212,7 +212,7 @@ pip install -r requirements.txt
 This project is licensed under the [MIT License](LICENSE).
 ```
 This project is licensed under the MIT License.
-Copyright 2024 Claire Wambani, Reagan Munene, Lameck Kambi, Reagan Munene.
+Copyright 2024 Claire Wambani, Reagan Munene, Lameck Kambi, Jackson Njihia.
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
